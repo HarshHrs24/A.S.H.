@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/HarshHrs24/Team-cl_AI_mate"></a>
+ 
 
   <img src="https://drive.google.com/uc?export=view&id=1eISmQoJ9JYrpczM67SNHTP75aWQ5THT8" alt="Logo" width="110" height="110">
 
@@ -22,6 +22,7 @@
 
 </div>
 
+ <a href="https://drive.google.com/file/d/1ciOkrGJx-lG-MHH-OjKJhSmG6dwMCae4/view?usp=sharing">Demo video</a>
 
 
 
@@ -64,7 +65,7 @@ Clone the repository or download the zip file in your machine and setup virtual 
 
 Make sure you have `python version >=3.9.0`, it's always good to follow the [docs](https://docs.textbase.ai/get-started/installation) 👈🏻
 ```bash
-$ git clone https://github.com/Shivansh1203/Gen-A-Thon
+$ git clone https://github.com/HarshHrs24/A.S.H./Gen-A-Thon
 $ cd Gen-A-Thon(your directory name)
 $ python3 -m venv venv
 $ . venv/bin/activate
@@ -163,7 +164,7 @@ To foster a well-rounded education, our chatbot recommends suitable extracurricu
 * Flask
 * OpenAI
 * GPT 3.5 Turbo
-* JavaScript
+* HTML5, CSS, JavaScript
 * MongoDB
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
