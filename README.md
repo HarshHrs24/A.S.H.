@@ -104,7 +104,7 @@ $ . venv/bin/activate
 
 <!-- Approach -->
 ## Our Approach
-Our approach to building an intelligent chatbot using the OpenAI GPT-3.5 Turbo model involves harnessing the power of real-life experiences from seniors to assist junior students. However, we recognize the challenges posed by the token limits of the model when dealing with a vast array of experiences. To overcome this challenge, we have implemented a structured approach involving MongoDB and two instances of the model:
+Our approach to building an intelligent chatbot using the OpenAI GPT-3.5 Turbo model involves harnessing the power of real-life experiences from seniors to assist junior students. However, we recognize the challenges posed by the token limits of the model when dealing with a vast array of experiences. To overcome this challenge, we have implemented a structured approach involving MongoDB and two instances of the GPT-3.5.Turbo model:
 
 ### MongoDB Database for Experience Collection:
 We have set up a MongoDB database to systematically collect and organize various experiences shared by seniors into different categories.
@@ -121,7 +121,7 @@ The second instance of our model comes into play after the first instance has re
 Its primary role is to further refine the responses based on the real-life experiences of seniors.
 It takes the retrieved experiences as input and fine-tunes its responses to provide more contextually accurate and valuable guidance to the junior student.
 This fine-tuning process is crucial in tailoring the chatbot's responses to the specific nuances and details of the user's query.
-By implementing this structured approach with two model instances, we aim to provide junior students with comprehensive and contextually relevant guidance. The first instance efficiently retrieves relevant experiences from the MongoDB database, while the second instance enhances these responses, taking into account the valuable insights and context shared by seniors. This combined approach ensures that our chatbot can deliver high-quality assistance to junior students, facilitating their academic and personal growth effectively.
+By implementing this structured approach with two GPT-3.5.Turbo model's instances, we aim to provide junior students with comprehensive and contextually relevant guidance. The first instance efficiently retrieves relevant experiences from the MongoDB database, while the second instance enhances these responses, taking into account the valuable insights and context shared by seniors. This combined approach ensures that our chatbot can deliver high-quality assistance to junior students, facilitating their academic and personal growth effectively.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
