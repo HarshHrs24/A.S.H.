@@ -1,3 +1,4 @@
+
 # Gen-A-Thon
   <p align="center">
 <strong>Gen-A-Thon IIIT Nagpur</strong>
@@ -20,6 +21,7 @@
   <h3 align="center">Chatbot: ASH</h3>
 
 </div>
+
 
 
 
@@ -81,25 +83,22 @@ $ . venv/bin/activate
 ## Your Friendly Chatbot/Senior ASH
 
 ## Subject-Related Questions and Study Strategies:
-<img src="https://drive.google.com/uc?export=view&id=1T4R_xbzrX7jUPndjmiNUTNGyP8iiQSXV" alt="Click and Reload" width="400" height="200"><img src="https://drive.google.com/uc?export=view&id=1nh2uMTr0eqifTH8wIht1OQZD9jDq5Joq" alt="Click and Reload" width="400" height="200">
+<img width="365" alt="Screenshot 2023-09-28 at 9 48 08 PM" src="https://github.com/HarshHrs24/A.S.H./assets/107180900/d311d133-57bb-492d-835c-40ecf4aa4cfd">
 
-<img src="https://drive.google.com/uc?export=view&id=1ZJmE8g0tg-VFMpJw3iaKSLS3s7DOkh72" alt="Click and Reload" width="400" height="200">
 
 ## Career Guidance and Time Management:
-<img src="https://drive.google.com/uc?export=view&id=13HZasg2qIx79IkPJZpEavbyjnNmNTVBv" alt="Click and Reload" width="400" height="200">
+<img width="379" alt="Screenshot 2023-09-28 at 10 02 18 PM" src="https://github.com/HarshHrs24/A.S.H./assets/107180900/1a935522-d4b0-44c8-a074-9f9e8b609cee">
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Extracurricular Activities and Personal Development:
-<img src="https://drive.google.com/uc?export=view&id=13HZasg2qIx79IkPJZpEavbyjnNmNTVBv" alt="Click and Reload" width="400" height="200">
+<img width="376" alt="Screenshot 2023-09-28 at 9 52 08 PM" src="https://github.com/HarshHrs24/A.S.H./assets/107180900/55cdbb02-ee7c-48f7-91ab-23c217b86d15">
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Food:
-<img src="https://drive.google.com/uc?export=view&id=13HZasg2qIx79IkPJZpEavbyjnNmNTVBv" alt="Click and Reload" width="400" height="200">
+<img width="378" alt="Screenshot 2023-09-28 at 10 03 43 PM" src="https://github.com/HarshHrs24/A.S.H./assets/107180900/88b601b4-87df-4e1a-99cf-c04df62866ec">
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 
 <!-- Approach -->
@@ -130,25 +129,28 @@ By implementing this structured approach with two GPT-3.5.Turbo model's instance
 ## Features
 * <strong>Subject-Related Questions:</strong>
   <br>
-In the context of our educational chatbot, we aim to address subject-related queries that junior students may have. Whether it's explaining complex mathematical concepts or simplifying challenging topics, our chatbot is here to provide clear and concise answers to help students excel in their studies.
+Our chatbot can help junior students by instantly answering their subject-related questions. Whether it's understanding complex topics or clarifying doubts in economics or psychology, it's there to provide clear explanations.
+
 * <strong>Study Strategies:</strong>
   <br>
-Our chatbot goes beyond textbook knowledge by offering valuable study strategies. It equips junior students with practical techniques to enhance their learning, helping them build effective study habits and achieve academic success.
+Our chatbot offers study strategies tailored to individual learning styles. It can suggest effective techniques to tackle challenging subjects, helping students optimize their study habits for academic success.
+
 * <strong>Career Guidance:</strong>
   <br>
-For juniors navigating the uncertain terrain of career choices, our chatbot acts as a reliable guide. It provides insights into potential career paths, educational options, and professional development, ensuring students are well-informed when making important decisions about their future.
+For those juniors considering their future, our chatbot provides career guidance. It can offer insights into different career paths and trends, assisting students in making informed decisions about majors and career choices.
+
 * <strong>Time Management:</strong>
   <br>
-Time management is crucial for junior students juggling multiple commitments. Our chatbot offers time management tips and strategies, empowering students to strike a balance between their academic responsibilities and personal lives.
+Time management is a critical skill, and our chatbot in Track 1 can share tips and strategies for effective time management. It helps students balance their academic commitments, assignments, and extracurricular activities efficiently.
+
 * <strong>Extracurricular Activities:</strong>
   <br>
-Our chatbot encourages students to explore extracurricular activities that align with their interests and aspirations. It suggests relevant options, enriching their educational journey with well-rounded experiences beyond the classroom.
-* <strong>Movie search</strong>
-  <br>
-Personal growth is a key aspect of our chatbot's mission. It delivers motivational advice and guidance on developing essential life skills, fostering resilience, and nurturing a growth mindset, ultimately contributing to students' holistic development.
+To foster a well-rounded education, our chatbot recommends suitable extracurricular activities. It aligns students' interests with relevant options, encouraging their participation in activities beyond academics.
+
 * <strong>Personal Development:</strong>
   <br>
-Our chatbot is not just about data retrieval; it also facilitates communication. With the Twilio message system integration, users can send and receive SMS messages directly through the chatbot. Whether it's sending notifications, reminders, or engaging in two-way conversations, your chatbot empowers users with a versatile communication tool.
+To foster a well-rounded education, our chatbot recommends suitable extracurricular activities. It aligns students' interests with relevant options, encouraging their participation in activities beyond academics.
+
   
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -169,8 +171,8 @@ Our chatbot is not just about data retrieval; it also facilitates communication.
 <!-- CONTACT -->
 ## Our Team
 
-* [Shivansh Rastogi](https://github.com/Shivansh1203)
 * [Harsh Soni](https://github.com/HarshHrs24)
+* [Shivansh Rastogi](https://github.com/Shivansh1203)
 * [Akhil](https://github.com/akhilupadhyay18)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -184,6 +186,7 @@ Our chatbot is not just about data retrieval; it also facilitates communication.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
