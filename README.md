@@ -31,7 +31,7 @@
       <a href="#problem-statement">Problem Statement</a>
     </li>
     <li>
-      <a href="#how-to-run-the-project">How to run the project in 5 simple steps</a>
+      <a href="#installation">Installation Steps</a>
     </li>
      <li><a href="#screenshots">Screenshots</a></li>
     <li><a href="#our-approach">Our Approach</a></li>
