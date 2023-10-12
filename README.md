@@ -18,7 +18,7 @@
   <img src="https://drive.google.com/uc?export=view&id=1eISmQoJ9JYrpczM67SNHTP75aWQ5THT8" alt="Logo" width="110" height="110">
 
     
-  <h3 align="center">Chatbot: ASH</h3>
+  <h3 align="center">Chatbot: A.S.H</h3>
 
 </div>
 
