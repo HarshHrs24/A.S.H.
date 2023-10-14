@@ -68,9 +68,25 @@ onSendButton(chatbox){
 
     .then(r=> r.json())
     .then(r => {
-        let msg2 = {name:"Shivansh", message: r.answer};
-        this.messages.push(msg2)
-        this.updateChatText(chatbox)
+        
+        if (r.type=="string"){
+            console.log("string")
+            let msg2 = {name:"Shivansh", message: r.answer};
+            this.messages.push(msg2)
+            this.updateChatText(chatbox)
+        }else{
+            console.log("-------")
+           console.log(typeof r.answer)
+           let msg3 = {name:"Shivansh", message: "Here are few suggested questions related to given topic. To copy any question just click on it"};
+           this.messages.push(msg3)
+           this.updateChatText(chatbox)
+           for(let i=0;i<(r.answer).length;i++){
+            let msg2 = {name:"Shivansh", message: r.answer[i]};
+            this.messages.push(msg2)
+            this.updateChatText(chatbox)
+           }
+        }
+        
         textField.value =''
     
 
@@ -87,13 +103,13 @@ updateChatText(chatbox){
     this.messages.slice().reverse().forEach(function(item){
         if (item.name==="Shivansh")
         {
-            html+= '<div class= "messages__item messages__item--visitor">' + item.message + '</div>'
+            html+= '<div class= "messages__item messages__item--visitor"  onclick="copyToClipboard(this)">' + item.message + '</div>'
 
         }
 
         else 
         {
-            html+= '<div class= "messages__item messages__item--operator">' + item.message + '</div>'  
+            html+= '<div class= "messages__item messages__item--operator"  onclick="copyToClipboard(this)">' + item.message + '</div>'  
         }
 
     });
@@ -109,5 +125,64 @@ updateChatText(chatbox){
 const chatbox =  new Chatbox();
 chatbox.display()
 
+function submitForm() {
+    // const selectedOption = document.getElementById('caviarChoice').value;
+    const textContent = document.getElementById('textContent').value;
 
+    const data = {
+        // option: selectedOption,
+        text: textContent
+    };
 
+    fetch($SCRIPT_ROOT +'/insert', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Success:', data);
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+    });
+}
+
+function copyToClipboard(element) {
+    const textToCopy = element.innerText || element.textContent;
+    
+    if (window.navigator && window.navigator.clipboard) {
+        window.navigator.clipboard.writeText(textToCopy).then(function() {
+            console.log('Text successfully copied!');
+        }).catch(function(err) {
+            console.error('Unable to copy text: ', err);
+        });
+    } else {
+        // Fallback for older browsers
+        const textArea = document.createElement("textarea");
+        textArea.value = textToCopy;
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+            document.execCommand('copy');
+            console.log('Text successfully copied!');
+        } catch (err) {
+            console.error('Unable to copy text: ', err);
+        }
+        document.body.removeChild(textArea);
+    }
+}
+
+function showChat() {
+    document.querySelector(".chat-page").style.display = "block";
+    document.querySelector(".experience-page").style.display = "none";
+    document.querySelector(".navbar").style.margin = "50px auto";
+}
+
+function showExperience() {
+    document.querySelector(".chat-page").style.display = "none";
+    document.querySelector(".experience-page").style.display = "block";
+    document.querySelector(".navbar").style.margin = "0px auto";
+}
