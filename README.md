@@ -83,6 +83,9 @@ $ . venv/bin/activate
 ## Screenshots 
 ## Your Friendly Chatbot/Senior ASH
 
+<img src="https://drive.google.com/uc?export=view&id=1mWRbrdDoXX6XAoAS46tBh2XaZ-rPPJlg" alt=" " width="700" height="500">
+
+
 ## Subject-Related Questions and Study Strategies:
 <img width="365" alt="Screenshot 2023-09-28 at 9 48 08 PM" src="https://github.com/HarshHrs24/A.S.H./assets/107180900/d311d133-57bb-492d-835c-40ecf4aa4cfd">
 
